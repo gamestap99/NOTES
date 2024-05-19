@@ -26,6 +26,16 @@ your flutter project $:
 flutterfire configure
 ```
 
+your flutter project support multi flavor
+```
+flutterfire config \
+  --project=my-test-app-flavors-dev \
+  --out=lib/firebase_options_dev.dart \
+  --ios-bundle-id=com.codewithandrea.my-test-app-flavors.dev \
+  --macos-bundle-id=com.codewithandrea.my-test-app-flavors.dev \
+  --android-app-id=com.codewithandrea.my_test_app_flavors.dev
+```
+
 # Step 5: Initialization#
 
 Next the generated options need to be provided to the initializeApp method. Since this is an asynchronous operation, the main function can be modified to ensure initialization is complete before running the application.
