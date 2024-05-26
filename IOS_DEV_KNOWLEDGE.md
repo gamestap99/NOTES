@@ -57,3 +57,22 @@ See: [Installation](https://github.com/rbenv/rbenv#installation)
 | rbenv shell --unset | Undo above |
 
 > Shell-local version numbers are stored as environment variables.
+
+# Add Gemfile && Bundle
+
+-- Install Bundle
+```
+gem install bundler
+```
+-- Add Gemfile to your project flutter
+```
+cd ios && bundle init && bundle install
+```
+-- Add package to gem 
+```
+bundle add <package_name>
+```
+
+
+
+
