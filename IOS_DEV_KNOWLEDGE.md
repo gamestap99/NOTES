@@ -58,7 +58,7 @@ See: [Installation](https://github.com/rbenv/rbenv#installation)
 
 > Shell-local version numbers are stored as environment variables.
 
-# Add Gemfile && Bundle
+# Add Gemfile && Bundle. How to use bundle?
 
 -- Install Bundle
 ```
@@ -72,6 +72,10 @@ cd ios && bundle init && bundle install
 ```
 bundle add <package_name>
 ```
+
+-- Use bundle
+old: `pod install`
+new: `bundle exec pod install`
 
 
 
