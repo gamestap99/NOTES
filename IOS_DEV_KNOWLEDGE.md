@@ -2,8 +2,26 @@
 
 ## Install Ruby
 
-- Install rbenv and ruby-build
+### 1. Install rbenv using one of the following approaches
 
+#### Homebrew
+On macOS or Linux, we recommend installing rbenv with Homebrew.
+```
+brew install rbenv
+```
+
+#### Debian, Ubuntu, and their derivatives
+```
+sudo apt install rbenv
+```
+
+### 2. Set up your shell to load rbenv.
+```
+rbenv init
+```
+### 3. Close your Terminal window and open a new one so your changes take effect.
+
+## Basic Git Checkout
 ```
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
